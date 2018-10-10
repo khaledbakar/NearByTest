@@ -1,4 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="FavPlaces" representedClassName="FavPlaces" syncable="YES" codeGenerationType="class">
+        <attribute name="imgurl_fv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lang_fv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lat_fv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_fp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="open_fv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rate_fp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type_fv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username_fk" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="toUsers" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Users" inverseName="toFavPlaces" inverseEntity="Users" syncable="YES"/>
+    </entity>
+    <entity name="Users" representedClassName="Users" syncable="YES" codeGenerationType="class">
+        <attribute name="birthday" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profilepic" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="toFavPlaces" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="FavPlaces" inverseName="toUsers" inverseEntity="FavPlaces" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="FavPlaces" positionX="-63" positionY="-18" width="128" height="178"/>
+        <element name="Users" positionX="169" positionY="-9" width="128" height="133"/>
+    </elements>
 </model>

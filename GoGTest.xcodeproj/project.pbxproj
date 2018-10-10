@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0400A6412163B88F0006C8E9 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400A6402163B88F0006C8E9 /* TableViewCell.swift */; };
+		0400A666216500520006C8E9 /* RestaurantVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400A665216500520006C8E9 /* RestaurantVC.swift */; };
+		0400A668216509190006C8E9 /* RestuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400A667216509190006C8E9 /* RestuItems.swift */; };
+		0400A66A216680930006C8E9 /* MapLocVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400A669216680930006C8E9 /* MapLocVC.swift */; };
 		043C0F3E215A45C100DF1607 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C0F3D215A45C100DF1607 /* AppDelegate.swift */; };
 		043C0F40215A45C100DF1607 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043C0F3F215A45C100DF1607 /* ViewController.swift */; };
 		043C0F43215A45C100DF1607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043C0F41215A45C100DF1607 /* Main.storyboard */; };
 		043C0F46215A45C100DF1607 /* GoGTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 043C0F44215A45C100DF1607 /* GoGTest.xcdatamodeld */; };
 		043C0F48215A45C600DF1607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043C0F47215A45C600DF1607 /* Assets.xcassets */; };
 		043C0F4B215A45C600DF1607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043C0F49215A45C600DF1607 /* LaunchScreen.storyboard */; };
+		04416B2D216A203900954FA6 /* SigninVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04416B2C216A203900954FA6 /* SigninVC.swift */; };
+		04416B2F216A204A00954FA6 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04416B2E216A204A00954FA6 /* SignUpVC.swift */; };
+		04416B31216A5A8A00954FA6 /* FavResturantVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04416B30216A5A8A00954FA6 /* FavResturantVC.swift */; };
+		04416B33216A84D600954FA6 /* FavPlacesViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04416B32216A84D600954FA6 /* FavPlacesViewCell.swift */; };
+		04416B35216C143400954FA6 /* MapLocPinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04416B34216C143400954FA6 /* MapLocPinVC.swift */; };
+		04416B37216D221100954FA6 /* RestaurantFavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04416B36216D221100954FA6 /* RestaurantFavVC.swift */; };
+		0F91A773A989472827EEDD32 /* Pods_GoGTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA33ABCE189F7AC31399D37E /* Pods_GoGTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0400A6402163B88F0006C8E9 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		0400A665216500520006C8E9 /* RestaurantVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantVC.swift; sourceTree = "<group>"; };
+		0400A667216509190006C8E9 /* RestuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestuItems.swift; sourceTree = "<group>"; };
+		0400A669216680930006C8E9 /* MapLocVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLocVC.swift; sourceTree = "<group>"; };
 		043C0F3A215A45C100DF1607 /* GoGTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoGTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		043C0F3D215A45C100DF1607 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		043C0F3F215A45C100DF1607 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +39,15 @@
 		043C0F47215A45C600DF1607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		043C0F4A215A45C600DF1607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		043C0F4C215A45C600DF1607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04416B2C216A203900954FA6 /* SigninVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninVC.swift; sourceTree = "<group>"; };
+		04416B2E216A204A00954FA6 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		04416B30216A5A8A00954FA6 /* FavResturantVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavResturantVC.swift; sourceTree = "<group>"; };
+		04416B32216A84D600954FA6 /* FavPlacesViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavPlacesViewCell.swift; sourceTree = "<group>"; };
+		04416B34216C143400954FA6 /* MapLocPinVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLocPinVC.swift; sourceTree = "<group>"; };
+		04416B36216D221100954FA6 /* RestaurantFavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantFavVC.swift; sourceTree = "<group>"; };
+		7616BC9E76E158F5CF1E0DF6 /* Pods-GoGTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoGTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoGTest/Pods-GoGTest.debug.xcconfig"; sourceTree = "<group>"; };
+		AA33ABCE189F7AC31399D37E /* Pods_GoGTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoGTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE34359359691C01917D1450 /* Pods-GoGTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoGTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoGTest/Pods-GoGTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F91A773A989472827EEDD32 /* Pods_GoGTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +67,8 @@
 			children = (
 				043C0F3C215A45C100DF1607 /* GoGTest */,
 				043C0F3B215A45C100DF1607 /* Products */,
+				7CE862DEB1B2690B21E7D745 /* Pods */,
+				731E6707AD645789D1FEE6F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +90,35 @@
 				043C0F49215A45C600DF1607 /* LaunchScreen.storyboard */,
 				043C0F4C215A45C600DF1607 /* Info.plist */,
 				043C0F44215A45C100DF1607 /* GoGTest.xcdatamodeld */,
+				0400A6402163B88F0006C8E9 /* TableViewCell.swift */,
+				0400A667216509190006C8E9 /* RestuItems.swift */,
+				04416B2C216A203900954FA6 /* SigninVC.swift */,
+				04416B2E216A204A00954FA6 /* SignUpVC.swift */,
+				04416B30216A5A8A00954FA6 /* FavResturantVC.swift */,
+				04416B32216A84D600954FA6 /* FavPlacesViewCell.swift */,
+				0400A669216680930006C8E9 /* MapLocVC.swift */,
+				04416B34216C143400954FA6 /* MapLocPinVC.swift */,
+				0400A665216500520006C8E9 /* RestaurantVC.swift */,
+				04416B36216D221100954FA6 /* RestaurantFavVC.swift */,
 			);
 			path = GoGTest;
+			sourceTree = "<group>";
+		};
+		731E6707AD645789D1FEE6F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA33ABCE189F7AC31399D37E /* Pods_GoGTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CE862DEB1B2690B21E7D745 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7616BC9E76E158F5CF1E0DF6 /* Pods-GoGTest.debug.xcconfig */,
+				DE34359359691C01917D1450 /* Pods-GoGTest.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 043C0F4F215A45C600DF1607 /* Build configuration list for PBXNativeTarget "GoGTest" */;
 			buildPhases = (
+				5B254B627380C48593AA2B25 /* [CP] Check Pods Manifest.lock */,
 				043C0F36215A45C100DF1607 /* Sources */,
 				043C0F37215A45C100DF1607 /* Frameworks */,
 				043C0F38215A45C100DF1607 /* Resources */,
+				7D6A488B4C8924687DA8863D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +189,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B254B627380C48593AA2B25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoGTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D6A488B4C8924687DA8863D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoGTest/Pods-GoGTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoGTest/Pods-GoGTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		043C0F36215A45C100DF1607 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				043C0F40215A45C100DF1607 /* ViewController.swift in Sources */,
+				04416B31216A5A8A00954FA6 /* FavResturantVC.swift in Sources */,
+				04416B2F216A204A00954FA6 /* SignUpVC.swift in Sources */,
+				0400A6412163B88F0006C8E9 /* TableViewCell.swift in Sources */,
+				04416B2D216A203900954FA6 /* SigninVC.swift in Sources */,
+				0400A668216509190006C8E9 /* RestuItems.swift in Sources */,
+				04416B33216A84D600954FA6 /* FavPlacesViewCell.swift in Sources */,
+				04416B37216D221100954FA6 /* RestaurantFavVC.swift in Sources */,
+				0400A666216500520006C8E9 /* RestaurantVC.swift in Sources */,
+				04416B35216C143400954FA6 /* MapLocPinVC.swift in Sources */,
 				043C0F46215A45C100DF1607 /* GoGTest.xcdatamodeld in Sources */,
 				043C0F3E215A45C100DF1607 /* AppDelegate.swift in Sources */,
+				0400A66A216680930006C8E9 /* MapLocVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,15 +389,17 @@
 		};
 		043C0F50215A45C600DF1607 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7616BC9E76E158F5CF1E0DF6 /* Pods-GoGTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 552FM8MPQ9;
 				INFOPLIST_FILE = GoGTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ikd.GoGTest;
+				PRODUCT_BUNDLE_IDENTIFIER = NearbyPlacesee.GoGTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,15 +408,17 @@
 		};
 		043C0F51215A45C600DF1607 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE34359359691C01917D1450 /* Pods-GoGTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 552FM8MPQ9;
 				INFOPLIST_FILE = GoGTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ikd.GoGTest;
+				PRODUCT_BUNDLE_IDENTIFIER = NearbyPlacesee.GoGTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
